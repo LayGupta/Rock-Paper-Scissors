@@ -1,0 +1,51 @@
+.choices{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.choice img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choice{
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background-color: black;
+}
+
+.score-board{
+    background:skyblue;
+    color: black;
+    font-size: 2rem;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#user-score{
+    font-size: 4rem;
+}
+
+#Computer-score{
+    font-size: 4rem;
+}
+.msg{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg {
+    background-color: rgb(51, 51, 195);
+    border-radius: 10px;
+    font-size: 4rem;
+    padding: 10px;
+}
